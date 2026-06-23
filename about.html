@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Inkspiration — our story, mission, award-winning artists, studio tour, and commitment to safety and excellence.">
+  <title>About Us | Inkspiration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="noise-overlay"></div>
+
+  <div class="loader">
+    <div class="loader-logo">Inkspiration</div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <div class="loader-progress"><span class="loader-counter">0%</span></div>
+  </div>
+
+  <div class="page-transition"></div>
+
+  <div class="cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Inkspiration</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="our-work.html" class="nav-link">Our Work</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="tel:9876543210" class="nav-cta">Call Now</a>
+    </div>
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="our-work.html" class="nav-link">Our Work</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <a href="tel:9876543210" class="nav-cta">Call Now</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <img src="https://images.pexels.com/photos/35702114/pexels-photo-35702114.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="About Inkspiration" class="page-hero-bg parallax-image">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content reveal">
+      <p class="page-hero-breadcrumb">Home / <span>About Us</span></p>
+      <h1 class="page-hero-title">Our <span class="gradient-text">Story</span></h1>
+    </div>
+  </section>
+
+  <!-- Studio Story -->
+  <section class="section">
+    <div class="container">
+      <div class="about-preview">
+        <div class="about-content reveal-left">
+          <span class="section-label">Since 2014</span>
+          <h2 class="section-title">The Inkspiration <span class="gradient-text">Legacy</span></h2>
+          <p class="about-text">What began as a single artist's vision in a small downtown studio has evolved into one of the most respected names in the tattoo industry. Marcus Chen founded Inkspiration with a simple belief: that every tattoo should be a work of art.</p>
+          <p class="about-text">Over the past decade, we've grown from a one-man operation into a collective of world-class artists, each bringing their unique perspective and expertise. Our studio has been featured in numerous publications and has received multiple industry awards for both artistry and studio excellence.</p>
+          <p class="about-text">Today, Inkspiration stands as a destination for collectors who seek the highest quality tattooing in an environment that balances professionalism with creative freedom.</p>
+          <div class="stats-grid counter-animate" style="margin-top:32px;">
+            <div class="stat-item">
+              <div class="stat-number" data-target="10" data-suffix="+">0+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="5000" data-suffix="+">0+</div>
+              <div class="stat-label">Tattoos Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="1000" data-suffix="+">0+</div>
+              <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="20" data-suffix="+">0+</div>
+              <div class="stat-label">Awards Won</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-image-wrapper reveal-right parallax-wrapper">
+          <img src="https://images.pexels.com/photos/37023010/pexels-photo-37023010.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tattoo Studio" class="parallax-image">
+          <div class="about-image-accent" style="bottom:auto;top:-20px;right:-20px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="reveal" style="text-align:center;margin-bottom:60px;">
+        <span class="section-label">Our Philosophy</span>
+        <h2 class="section-title">Mission & <span class="gradient-text">Vision</span></h2>
+      </div>
+      <div class="mission-grid">
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-bullseye"></i></div>
+          <h3 class="mission-title">Our Mission</h3>
+          <p class="mission-text">To provide an unparalleled tattooing experience where artistry, safety, and client collaboration converge. We are committed to pushing the boundaries of what's possible on skin while maintaining the highest standards of hygiene and professionalism.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-eye"></i></div>
+          <h3 class="mission-title">Our Vision</h3>
+          <p class="mission-text">To be recognized globally as a premier destination for fine tattoo art — a studio where tradition meets innovation, and where every client leaves with not just a tattoo, but a cherished piece of art that tells their unique story.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet The Artists -->
+  <section class="section">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Our Team</span>
+        <h2 class="section-title">Meet The <span class="gradient-text">Artists</span></h2>
+        <p class="section-subtitle">Award-winning artists dedicated to their craft, each with a unique style and vision.</p>
+      </div>
+      <div class="artists-grid" style="margin-top:60px;">
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/20519299/pexels-photo-20519299.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marcus Chen">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">Marcus Chen</h3>
+            <p class="artist-specialty">Founder & Lead Artist — 12 yrs</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/37023014/pexels-photo-37023014.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sofia Reyes">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">Sofia Reyes</h3>
+            <p class="artist-specialty">Senior Artist — 9 yrs</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/32225187/pexels-photo-32225187.jpeg?auto=compress&cs=tinysrgb&w=600" alt="James Okafor">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">James Okafor</h3>
+            <p class="artist-specialty">Artist — 7 yrs</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/13765704/pexels-photo-13765704.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Lena Kim">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">Lena Kim</h3>
+            <p class="artist-specialty">Artist — 6 yrs</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Studio Tour Gallery -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="reveal" style="margin-bottom:60px;">
+        <span class="section-label">Take A Tour</span>
+        <h2 class="section-title">Our <span class="gradient-text">Studio</span></h2>
+        <p class="section-subtitle">Step inside our award-winning space designed for creativity and comfort.</p>
+      </div>
+      <div class="studio-gallery">
+        <img src="https://images.pexels.com/photos/19548529/pexels-photo-19548529.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Studio Interior">
+        <img src="https://images.pexels.com/photos/7147780/pexels-photo-7147780.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tattoo Station">
+        <img src="https://images.pexels.com/photos/10552040/pexels-photo-10552040.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Studio Waiting Area">
+        <img src="https://images.pexels.com/photos/6593509/pexels-photo-6593509.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Equipment">
+        <img src="https://images.pexels.com/photos/18078748/pexels-photo-18078748.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Art Display">
+        <img src="https://images.pexels.com/photos/4121065/pexels-photo-4121065.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Wall">
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Safety -->
+  <section class="section">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="section-label">Our Standards</span>
+        <h2 class="section-title">Certifications & <span class="gradient-text">Safety</span></h2>
+        <p class="section-subtitle" style="margin:0 auto;">Your health and safety are our highest priority. We maintain the strictest standards in the industry.</p>
+      </div>
+      <div class="certifications-grid">
+        <div class="cert-item">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <h3 class="cert-title">BBP Certified</h3>
+          <p class="cert-desc">Bloodborne Pathogens certified by the American Red Cross</p>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3 class="cert-title">OSHA Compliant</h3>
+          <p class="cert-desc">Full OSHA safety standards and workplace compliance</p>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon"><i class="fas fa-award"></i></div>
+          <h3 class="cert-title">Licensed Facility</h3>
+          <p class="cert-desc">Licensed and inspected by the California Department of Public Health</p>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon"><i class="fas fa-syringe"></i></div>
+          <h3 class="cert-title">Sterilization</h3>
+          <p class="cert-desc">Medical-grade autoclave sterilization with weekly spore testing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Trust -->
+  <section class="cta-section">
+    <img src="https://images.pexels.com/photos/6593483/pexels-photo-6593483.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Tattoo Art" class="cta-bg">
+    <div class="cta-overlay"></div>
+    <div class="cta-content reveal">
+      <h2 class="cta-title">Trust The <span class="gradient-text">Experts</span></h2>
+      <p class="cta-desc">With over a decade of experience and thousands of satisfied clients, your safety and satisfaction are guaranteed. Book a consultation and experience the difference.</p>
+      <a href="tel:9876543210" class="btn btn-primary magnetic-wrap">Call Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Inkspiration</div>
+          <p class="footer-desc">Premium tattoo studio crafting timeless art since 2014.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="our-work.html">Our Work</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <div class="footer-links">
+            <a href="services.html">Custom Tattoos</a>
+            <a href="services.html">Realism</a>
+            <a href="services.html">Black & Grey</a>
+            <a href="services.html">Cover-Ups</a>
+            <a href="services.html">Piercings</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>47 Artisan Lane, Suite 200<br>Los Angeles, CA 90012</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>(213) 555-0189</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>hello@inkandneedle.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Inkspiration. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-prev">&#10094;</span>
+    <span class="lightbox-next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+

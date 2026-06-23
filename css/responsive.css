@@ -1,0 +1,320 @@
+/* ===== TABLET (max 1024px) ===== */
+@media (max-width: 1024px) {
+  .nav {
+    padding: 20px 24px;
+  }
+  
+  .nav.scrolled {
+    padding: 14px 24px;
+  }
+  
+  .nav-links {
+    gap: 24px;
+  }
+  
+  .nav-link {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+
+  .about-preview {
+    gap: 48px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .artists-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-block {
+    gap: 40px;
+  }
+
+  .contact-grid {
+    gap: 48px;
+  }
+}
+
+/* ===== MOBILE LANDSCAPE & TABLET PORTRAIT (max 768px) ===== */
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .hero {
+    min-height: 600px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.8rem, 12vw, 5rem);
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .about-preview {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-image-wrapper img {
+    height: 400px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-item:nth-child(1) {
+    grid-column: span 2;
+  }
+
+  .artists-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .artist-card img {
+    height: 350px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .page-hero {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  .page-hero-title {
+    font-size: clamp(2rem, 10vw, 4rem);
+  }
+
+  .mission-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .studio-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .studio-gallery img:nth-child(1) {
+    grid-column: span 2;
+  }
+
+  .certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-block {
+    grid-template-columns: 1fr;
+    padding: 60px 0;
+  }
+
+  .service-block:nth-child(even) .service-block-image {
+    order: 0;
+  }
+
+  .service-block-image {
+    height: 350px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+
+  .pricing-card.featured:hover {
+    transform: translateY(-8px);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-wrapper {
+    padding: 32px 24px;
+  }
+
+  .portfolio-page-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-page-item.wide {
+    grid-column: span 2;
+  }
+
+  .horizontal-scroll-item .content h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ===== SMALL MOBILE (max 480px) ===== */
+@media (max-width: 480px) {
+  .nav {
+    padding: 16px 20px;
+  }
+  
+  .nav.scrolled {
+    padding: 12px 20px;
+  }
+
+  .nav-logo {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.2rem, 15vw, 3.5rem);
+    letter-spacing: 2px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-item:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .artists-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .artist-card img {
+    height: 400px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .studio-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .studio-gallery img:nth-child(1) {
+    grid-column: span 1;
+  }
+
+  .service-block {
+    padding: 40px 0;
+  }
+
+  .service-block-number {
+    font-size: 4rem;
+  }
+
+  .service-block-title {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-page-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-page-item.wide {
+    grid-column: span 1;
+  }
+
+  .testimonials-swiper {
+    padding-bottom: 50px;
+  }
+
+  .horizontal-scroll-item .content h2 {
+    font-size: 2rem;
+  }
+
+  .horizontal-scroll-item .content {
+    padding: 20px;
+  }
+
+  .cta-section {
+    padding: 100px 0;
+  }
+
+  .cta-title {
+    font-size: clamp(2rem, 10vw, 3rem);
+  }
+
+  .contact-info-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

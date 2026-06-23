@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Inkspiration — Premium Tattoo Studio. Award-winning artists specializing in custom tattoos, realism, blackwork, and fine line. Book your consultation today.">
+  <meta name="keywords" content="tattoo studio, custom tattoos, realism tattoos, blackwork, fine line, tattoo artist, premium tattoo">
+  <meta name="author" content="Inkspiration">
+  <meta property="og:title" content="Inkspiration | Premium Tattoo Studio">
+  <meta property="og:description" content="Your Skin. Our Canvas. Award-winning tattoo artistry in a luxury studio environment.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0B0B0B">
+  <title>Inkspiration | Premium Tattoo Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="noise-overlay"></div>
+
+  <!-- Loading Screen -->
+  <div class="loader">
+    <div class="loader-logo">Inkspiration</div>
+    <div class="loader-bar">
+      <div class="loader-bar-fill"></div>
+    </div>
+    <div class="loader-progress"><span class="loader-counter">0%</span></div>
+  </div>
+
+  <!-- Page Transition -->
+  <div class="page-transition"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Inkspiration</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="our-work.html" class="nav-link">Our Work</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="tel:9876543210" class="nav-cta">Call Now</a>
+    </div>
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="our-work.html" class="nav-link">Our Work</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <a href="tel:9876543210" class="nav-cta">Call Now</a>
+  </div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <video class="hero-bg parallax-image" autoplay muted loop playsinline poster="https://images.pexels.com/photos/15130380/pexels-photo-15130380.jpeg?auto=compress&cs=tinysrgb&w=1920">
+      <source src="assets/videos/hero-bg.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Est. 2025</div>
+      <h1 class="hero-title">
+        <span class="line"><span>Your Skin.</span></span>
+        <span class="line"><span>Our <span class="highlight">Canvas.</span></span></span>
+      </h1>
+      <p class="hero-desc">Where visionary artistry meets the human form. Award-winning tattoo studio crafting timeless masterpieces since 2025.</p>
+      <div class="hero-actions">
+        <a href="tel:9876543210" class="btn btn-primary magnetic-wrap">Call Now</a>
+        <a href="our-work.html" class="btn btn-secondary magnetic-wrap">Explore Our Work</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <section class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item">Custom Tattoos</span>
+      <span class="marquee-item">Realism</span>
+      <span class="marquee-item">Black & Grey</span>
+      <span class="marquee-item">Japanese</span>
+      <span class="marquee-item">Fine Line</span>
+      <span class="marquee-item">Cover-Ups</span>
+      <span class="marquee-item">Piercings</span>
+      <span class="marquee-item">Custom Tattoos</span>
+      <span class="marquee-item">Realism</span>
+      <span class="marquee-item">Black & Grey</span>
+      <span class="marquee-item">Japanese</span>
+      <span class="marquee-item">Fine Line</span>
+      <span class="marquee-item">Cover-Ups</span>
+      <span class="marquee-item">Piercings</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT PREVIEW ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="about-preview">
+        <div class="about-image-wrapper reveal-left parallax-wrapper">
+          <img src="https://images.pexels.com/photos/37023010/pexels-photo-37023010.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tattoo Studio Interior" class="parallax-image">
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-content reveal-right">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Where Art Meets <span class="gradient-text">Skin</span></h2>
+          <p class="about-text">Founded in 2025, Inkspiration has grown from a passion project into one of the most acclaimed tattoo studios in the world. Our team of award-winning artists brings together diverse expertise in realism, blackwork, Japanese, and fine line styles.</p>
+          <p class="about-text">Every tattoo we create is a collaborative journey — from the initial consultation to the final reveal. We believe that the best tattoos are born from trust, creativity, and an uncompromising commitment to excellence.</p>
+          <a href="about.html" class="btn btn-gold magnetic-wrap">Discover Our Story</a>
+          <div class="stats-grid counter-animate">
+            <div class="stat-item">
+              <div class="stat-number" data-target="10" data-suffix="+">0+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="5000" data-suffix="+">0+</div>
+              <div class="stat-label">Tattoos Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="1000" data-suffix="+">0+</div>
+              <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="20" data-suffix="+">0+</div>
+              <div class="stat-label">Awards Won</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED SERVICES ===== -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Premium <span class="gradient-text">Services</span></h2>
+        <p class="section-subtitle">From intricate realism to bold traditional work, our artists master every style with precision and passion.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-pen-nib"></i></div>
+          <h3 class="service-card-title">Custom Tattoos</h3>
+          <p class="service-card-desc">Unique designs crafted from your vision. Every line tells a story.</p>
+          <a href="services.html" class="service-card-link">Learn More <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-camera"></i></div>
+          <h3 class="service-card-title">Realism</h3>
+          <p class="service-card-desc">Photographic precision that captures every detail and emotion.</p>
+          <a href="services.html" class="service-card-link">Learn More <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-droplet"></i></div>
+          <h3 class="service-card-title">Black & Grey</h3>
+          <p class="service-card-desc">Timeless monochromatic art with stunning depth and contrast.</p>
+          <a href="services.html" class="service-card-link">Learn More <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-palette"></i></div>
+          <h3 class="service-card-title">Color Tattoos</h3>
+          <p class="service-card-desc">Vibrant, bold colors that stand the test of time.</p>
+          <a href="services.html" class="service-card-link">Learn More <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-circle"></i></div>
+          <h3 class="service-card-title">Piercings</h3>
+          <p class="service-card-desc">Professional body piercing with the highest safety standards.</p>
+          <a href="services.html" class="service-card-link">Learn More <span class="arrow">→</span></a>
+        </div>
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-undo-alt"></i></div>
+          <h3 class="service-card-title">Cover-Ups</h3>
+          <p class="service-card-desc">Transform old ink into something you'll love again.</p>
+          <a href="services.html" class="service-card-link">Learn More <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED WORK ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="portfolio-header reveal">
+        <div>
+          <span class="section-label">Our Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+        </div>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="realism">Realism</button>
+          <button class="filter-btn" data-filter="blackwork">Blackwork</button>
+          <button class="filter-btn" data-filter="japanese">Japanese</button>
+          <button class="filter-btn" data-filter="traditional">Traditional</button>
+          <button class="filter-btn" data-filter="fine-line">Fine Line</button>
+          <button class="filter-btn" data-filter="geometric">Geometric</button>
+        </div>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="realism">
+          <img src="https://images.pexels.com/photos/1304469/pexels-photo-1304469.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Realism Tattoo">
+          <div class="portfolio-item-overlay">
+            <h3 class="portfolio-item-title">Lion Portrait</h3>
+            <span class="portfolio-item-category">Realism</span>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="blackwork">
+          <img src="https://images.pexels.com/photos/6593483/pexels-photo-6593483.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Blackwork Tattoo">
+          <div class="portfolio-item-overlay">
+            <h3 class="portfolio-item-title">Geometric Wolf</h3>
+            <span class="portfolio-item-category">Blackwork</span>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="traditional">
+          <img src="https://images.pexels.com/photos/35172671/pexels-photo-35172671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Traditional Tattoo">
+          <div class="portfolio-item-overlay">
+            <h3 class="portfolio-item-title">Classic Rose</h3>
+            <span class="portfolio-item-category">Traditional</span>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="japanese">
+          <img src="https://images.pexels.com/photos/32225187/pexels-photo-32225187.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Japanese Tattoo">
+          <div class="portfolio-item-overlay">
+            <h3 class="portfolio-item-title">Koi Dragon</h3>
+            <span class="portfolio-item-category">Japanese</span>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="fine-line">
+          <img src="https://images.pexels.com/photos/18078748/pexels-photo-18078748.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fine Line Tattoo">
+          <div class="portfolio-item-overlay">
+            <h3 class="portfolio-item-title">Botanical Study</h3>
+            <span class="portfolio-item-category">Fine Line</span>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="geometric">
+          <img src="https://images.pexels.com/photos/4121065/pexels-photo-4121065.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Geometric Tattoo">
+          <div class="portfolio-item-overlay">
+            <h3 class="portfolio-item-title">Sacred Geometry</h3>
+            <span class="portfolio-item-category">Geometric</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ARTIST SHOWCASE ===== -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Meet The Team</span>
+        <h2 class="section-title">Our <span class="gradient-text">Artists</span></h2>
+        <p class="section-subtitle">A collective of award-winning artists, each with a distinct style and vision.</p>
+      </div>
+      <div class="artists-grid">
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/20519299/pexels-photo-20519299.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marcus Chen">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">Marcus Chen</h3>
+            <p class="artist-specialty">Founder & Lead Artist — Realism</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/35702114/pexels-photo-35702114.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sofia Reyes">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">Sofia Reyes</h3>
+            <p class="artist-specialty">Senior Artist — Black & Grey</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/37023014/pexels-photo-37023014.jpeg?auto=compress&cs=tinysrgb&w=600" alt="James Okafor">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">James Okafor</h3>
+            <p class="artist-specialty">Artist — Japanese & Traditional</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="artist-card">
+          <img src="https://images.pexels.com/photos/6593509/pexels-photo-6593509.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Lena Kim">
+          <div class="artist-card-overlay">
+            <h3 class="artist-name">Lena Kim</h3>
+            <p class="artist-specialty">Artist — Fine Line & Geometric</p>
+            <div class="artist-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="section-label">Testimonials</span>
+        <h2 class="section-title">What Our Clients <span class="gradient-text">Say</span></h2>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="swiper testimonials-swiper" data-lenis-prevent>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Absolutely incredible work. The level of detail and artistry is unmatched. I came in with a vague idea and left with a masterpiece that exceeds every expectation."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/15130380/pexels-photo-15130380.jpeg?auto=compress&cs=tinysrgb&w=120" alt="Client">
+                <div class="testimonial-author-info">
+                  <h4 class="testimonial-author-name">David Mitchell</h4>
+                  <p class="testimonial-author-title">Full Sleeve Realism</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"The studio atmosphere is incredible — clean, professional, and genuinely artistic. Sofia's black and grey work is phenomenal. I'm already planning my next piece."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/1304469/pexels-photo-1304469.jpeg?auto=compress&cs=tinysrgb&w=120" alt="Client">
+                <div class="testimonial-author-info">
+                  <h4 class="testimonial-author-name">Emma Watson</h4>
+                  <p class="testimonial-author-title">Black & Grey Portrait</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"I traveled over 200 miles to get tattooed here, and it was worth every mile. Marcus is a true artist. The consultation process was thorough and the result is breathtaking."</p>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/6593483/pexels-photo-6593483.jpeg?auto=compress&cs=tinysrgb&w=120" alt="Client">
+                <div class="testimonial-author-info">
+                  <h4 class="testimonial-author-name">Alex Rivera</h4>
+                  <p class="testimonial-author-title">Japanese Full Back</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section">
+    <img src="https://images.pexels.com/photos/35172671/pexels-photo-35172671.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Tattoo Equipment" class="cta-bg">
+    <div class="cta-overlay"></div>
+    <div class="cta-content reveal">
+      <h2 class="cta-title">Ready For Your Next <span class="gradient-text">Masterpiece</span>?</h2>
+      <p class="cta-desc">Your vision deserves the highest level of artistry. Book a consultation with our award-winning team and let's create something extraordinary together.</p>
+      <a href="tel:9876543210" class="btn btn-primary magnetic-wrap">Call Now</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Inkspiration</div>
+          <p class="footer-desc">Premium tattoo studio crafting timeless art since 2014. Where vision meets skin.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="our-work.html">Our Work</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <div class="footer-links">
+            <a href="services.html">Custom Tattoos</a>
+            <a href="services.html">Realism</a>
+            <a href="services.html">Black & Grey</a>
+            <a href="services.html">Cover-Ups</a>
+            <a href="services.html">Piercings</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>47 Artisan Lane, Suite 200<br>Los Angeles, CA 90012</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>(213) 555-0189</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>hello@inkandneedle.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Inkspiration. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-prev">&#10094;</span>
+    <span class="lightbox-next">&#10095;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
