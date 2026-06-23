@@ -400,7 +400,14 @@ class CompareSlider {
       const wrap = container.querySelector('.img-compare-after-wrap');
       const handle = container.querySelector('.img-compare-handle');
       const images = container.querySelector('.img-compare-images');
-      if (!wrap || !handle || !images) return;
+      const afterImg = container.querySelector('.img-compare-after');
+      if (!wrap || !handle || !images || !afterImg) return;
+
+      const syncImgWidth = () => {
+        afterImg.style.width = images.offsetWidth + 'px';
+      };
+      syncImgWidth();
+      window.addEventListener('resize', syncImgWidth);
 
       const setPos = (clientX) => {
         const rect = images.getBoundingClientRect();
