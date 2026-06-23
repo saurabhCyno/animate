@@ -445,6 +445,13 @@ class CompareSlider {
   }
 }
 
+// ===== SERVICE CARD BG IMAGES =====
+function initServiceCardImages() {
+  document.querySelectorAll('.service-card[data-bg]').forEach(card => {
+    card.style.setProperty('--bg-img', `url(${card.dataset.bg})`);
+  });
+}
+
 // ===== INITIALIZE =====
 document.addEventListener('DOMContentLoaded', () => {
   new Loader();
@@ -459,6 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
   new MagneticButtons();
   new ContactForm();
   new CompareSlider();
+  initServiceCardImages();
 
   if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
     initGSAPAnimations();
