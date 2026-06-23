@@ -58,7 +58,9 @@
   }
 
   .nav-toggle {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .hero {
@@ -316,5 +318,41 @@
   .contact-info-card {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .loader-logo {
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+
+  .loader-bar {
+    width: 120px;
+  }
+
+  .loader-counter {
+    font-size: 1.2rem;
+  }
+
+  .loader-progress {
+    margin-top: 12px;
+  }
+
+  .img-compare-images {
+    aspect-ratio: 3 / 4;
+  }
+
+  .img-compare-arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 1rem;
+  }
+
+  .img-compare-arrow.left {
+    left: -12px;
+  }
+
+  .img-compare-arrow.right {
+    right: -12px;
   }
 }

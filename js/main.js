@@ -95,6 +95,15 @@ class Navigation {
         document.body.style.overflow = this.mobileMenu.classList.contains('active') ? 'hidden' : '';
       });
 
+      const closeBtn = this.mobileMenu.querySelector('.mobile-menu-close');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          this.toggle.classList.remove('active');
+          this.mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      }
+
       this.mobileMenu.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', () => {
           this.toggle.classList.remove('active');
